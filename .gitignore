@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+
+# Optional: Uncomment if using VSCode
+#.vscode/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# Optional: Uncomment if using next.js
+#.next/
+
+# Optional: Uncomment if using SvelteKit
+#/.svelte-kit/
+
+# Optional: Uncomment if using Astro
+#/.astro/
