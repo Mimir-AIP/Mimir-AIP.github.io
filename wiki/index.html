@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimir AIP Wiki</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f9f9fb; color: #222; }
+        .container { display: flex; min-height: 100vh; }
+        .sidebar {
+            background: #232946;
+            color: #fff;
+            width: 250px;
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        .sidebar h2 { color: #eebbc3; font-size: 1.5rem; margin-bottom: 2rem; }
+        .sidebar ul { list-style: none; padding: 0; }
+        .sidebar ul li { margin: 1rem 0; }
+        .sidebar ul li a { color: #fff; text-decoration: none; font-weight: 500; }
+        .sidebar ul li a:hover { color: #eebbc3; }
+        .content { flex: 1; padding: 2rem; }
+        .content h1 { color: #232946; }
+        .toc { margin: 2rem 0; }
+        .toc a { display: block; color: #232946; text-decoration: none; margin: 0.5rem 0; }
+        .toc a:hover { text-decoration: underline; }
+        @media (max-width: 700px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; min-height: unset; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Mimir AIP Wiki</h2>
+            <ul>
+                <li><a href="#getting-started">Getting Started</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h1>Welcome to the Mimir AIP Wiki</h1>
+            <p>This wiki provides comprehensive documentation and guides for using the Mimir AIP platform.</p>
+            <div class="toc">
+                <strong>Table of Contents</strong>
+                <a href="#getting-started">Getting Started</a>
+                <a href="#features">Features</a>
+                <a href="#usage">Usage</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <section id="getting-started">
+                <h2>Getting Started</h2>
+                <p>Instructions on how to sign up, install, and begin using Mimir AIP.</p>
+            </section>
+            <section id="features">
+                <h2>Features</h2>
+                <p>Overview of key features and capabilities of the platform.</p>
+            </section>
+            <section id="usage">
+                <h2>Usage</h2>
+                <p>Step-by-step guides and examples for common workflows.</p>
+            </section>
+            <section id="faq">
+                <h2>FAQ</h2>
+                <p>Frequently asked questions and troubleshooting tips.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
