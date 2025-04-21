@@ -1,0 +1,83 @@
+:root {
+  --bs-primary: #0B192C;
+  --bs-secondary: #1E3E62;
+  --bs-warning: #FF6500;
+  --bs-body-bg: #0B192C;
+  --bs-body-color: #fff;
+  --bs-link-color: #FF6500;
+  --bs-link-hover-color: #ff914d;
+}
+body {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+.navbar, .footer {
+  background: var(--bs-primary) !important;
+}
+.navbar-brand img {
+  height: 2.2rem;
+  margin-right: 0.5rem;
+}
+.banner {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  margin-bottom: -2rem;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-top: -50px;
+  background: var(--bs-primary);
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(30,62,98,0.1);
+  border: 4px solid var(--bs-secondary);
+  z-index: 2;
+  position: relative;
+}
+.feature {
+  background: #182c4b;
+  color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem 1.2rem;
+  min-width: 210px;
+  max-width: 260px;
+  flex: 1 1 220px;
+  box-shadow: 0 2px 12px rgba(30,62,98,0.08);
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.feature h3 {
+  color: var(--bs-warning);
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.footer {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.95rem;
+  margin: 3rem 0 1rem 0;
+  padding: 1rem 0 0.5rem 0;
+}
+.sidebar-section {
+  background: #182c4b;
+  color: #fff;
+  border-radius: 10px;
+  padding: 1.5rem 1.2rem;
+  margin-bottom: 2rem;
+}
+.sidebar-section h2 {
+  color: var(--bs-warning);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+pre, code {
+  background: #232946;
+  color: var(--bs-link-hover-color);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
