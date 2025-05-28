@@ -1,0 +1,18 @@
+# Mimir AIP
+
+> The MIMIR Artificial Intelligence Platform is an open-source framework designed to connect inputs and outputs to AI systems with integrated storage capabilities. The platform is built to provide a modular and flexible architecture, allowing users to easily integrate various components and customize the system to suit their specific needs.
+> 
+> Mimir AIP also provides support for integrating Large Language Models (LLMs), both locally and remotely hosted, via its plugin system. This allows users to leverage advanced language processing capabilities as part of their custom pipelines.
+
+## Running the project
+
+- [Project Github Repo](https://github.com/Mimir-AIP/Mimir-AIP): Contains project code (bundled with a range of premade plugins)
+- Main branch contains current release version
+- Development branch contains codebase ahead of release
+- PipelineDemo-ProofOfConceptV2 contains a proof of concept demo pipeline and the readme contains information on how to set up and run it
+
+## Documentation
+
+- [Documentation site for project](https://mimir-aip.github.io/)
+- [Wiki available at](https://mimir-aip.github.io/wiki/wiki.html)
+
